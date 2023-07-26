@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://minmyomin:$HF_TOKEN@huggingface.co/spaces/minmyomin/plantsbyclimatezone main
+        run: git push --force https://minmyomin:$HF_TOKEN@huggingface.co/spaces/minmyomin/plantsbyclimatezone main
