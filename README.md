@@ -1,10 +1,10 @@
-# plantsbyclimate
-plants by climate zone
+---
+license: openrail
 title: plantsbyclimatezone
-emoji: 🤗
-colorFrom: {{colorFrom}}
-colorTo: {{colorTo}}
 sdk: streamlit
-sdk_version: {{sdkVersion}}
+emoji: 🚀
+colorFrom: red
+colorTo: yellow
 app_file: app.py
 pinned: false
+---
